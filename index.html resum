@@ -1,0 +1,52 @@
+let myResume={
+    "basics": {
+      "name": "Inturi joshuva",
+      "email": "joshuvanani1999@gamil.com",
+      "phone": 8015511732,
+      "degree": "B.E",
+      "location": {
+        "address": "plot.1 annai sathya nagar",
+        "zipCode": 600099,
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      
+    "work": [
+      {
+        "company": "MRF TYRES LTD Trichy",
+        "position": "electrical technician",
+        "startDate": "2022-06-27",
+        "endDate": "2023-02-15",
+        
+      },
+    ],
+    "education": [
+      {
+        "institution": "Loyola-Icam College Of Engineering",
+        "department": "electrical department",
+        "studyType": "fulltime",
+        "batch start year": 2019,
+        "batch end year": 2022,
+        "gpa": 7.5,
+      }
+    ],
+    "skills": [
+      {
+        "name": "js,HTML,CSS",
+        "level": "beginner",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "telugu,Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "sports",
+      }
+    ]
+  }
+  console.log(myResume);
