@@ -1,0 +1,31 @@
+let details1 = {name:"joshuva",email:"joshiva@gmail.com",mobile:"829891125",age:"24",gender:"Male"}
+ let details2 = {mobile:"829891125",age:"24",gender:"Male",name:"joshuva",email:"joshuva@gmail.com",price:"1000"}
+
+let flag = true
+ for(let e in details1)
+ {
+    if(details1[e]!==details2[e])
+    {
+         flag = false;
+        break
+    }
+}
+ flag?console.log("Equall"):console.log("Not Equall")
+
+ let keys1 = Object.keys(details1)
+ let keys2 = Object.keys(details2)
+ let flag = true
+ if(keys1.length===keys2.length)
+ {
+     for(let e of keys1)
+     {
+        if(details1[e]!==details2[e])
+        {
+            flag=false
+            break;
+        }
+    }
+}
+ else
+     flag = false
+ flag?console.log("Equall"):console.log("Not Equall")
